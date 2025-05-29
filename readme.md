@@ -1,0 +1,1 @@
+Este proyecto es una pagina Web desarrollada como parte del curso de Front-end.La pagina esta estructurada con HTML semantico y utiliza las etiquetas <header>, <main> y <footer> para organizar el contenido.
