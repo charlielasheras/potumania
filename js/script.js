@@ -31,3 +31,8 @@ let numeroA = parseInt(prompt("ingrese un numero: "))
 let numeroB = parseInt(prompt("ingrese un segundo numero: "))
 let resultado = numeroA * numeroB
 console.log(resultado)
+
+let nombre = "Analia"
+let apellido = "Perez"
+edad = 35;
+console.log(´Hola ${nombre} ${apellido},si tenes ${edad} años, en el 2030 cumplis tus ${edad + 5}.´);
