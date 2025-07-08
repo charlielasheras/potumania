@@ -2,23 +2,24 @@ html { font-size: 1rem; }
 body 
 .banner {background-image: url(/images/background1.jpg) ;background-size: cover ;background-position: center;} 
 
-h1 { color: rgb(228, 160, 14) !important;
-font-size: 50px ;
-font-family:  ´Henny Penny´, Arial, Helvetica;} 
-p {
-    color: rgb(5, 5, 65);font-size: 16px;
-}
+.h1:hover 
+  {color: rgb(205, 142, 8);}
+
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: bold;
+ }
+
+
 .limelight-regular {
   font-family: "Limelight", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.henny-penny-regular {
-  font-family: "Henny Penny", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
+
+
 #pcolor {
     color:rgb(26, 18, 2) ; font-size: 1.5em;
 }
@@ -28,30 +29,56 @@ h4 {color: rgb(106, 35, 7);}
 h3 {color: rgb(168, 53, 7);}
 
 header {
-     position: sticky;
-     top: 0px;
-     right: 10px;
-      background-color: rgb(54, 179, 54);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: sticky;
+      top: 0px;
+      right: 10px;
+      font-family: "Caprasimo", serif;
+      background-color: rgb(57, 170, 57);
       width: 100%; height: 25%;
-      border: 1px solid gray;}
+      border: 1px solid rgb(101, 5, 5);
+      padding: 10px;
+      font-size: 1.5em;
+     
+      color: rgb(6, 19, 118);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(123, 217, 123);
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: 'Ribeye', serif;
+    color: rgb(113, 21, 234);
+}
 
 .imglogo {padding: 3px ;
        border: 1px solid black;}
 
 body    {background-color: rgb(133, 218, 133) ;} 
 
-nav     .ribeye-regular 
-    {
-        font-family: "Ribeye", serif;
-        font-weight: 400;
-            font-style: normal;
-    }
 
 footer {
      
       background-color: rgb(54, 179, 54);
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 100%; height: 50%;
-      border: 1px solid gray;background-color: rgb(12, 153, 12); }
+      border: 1px solid gray;background-color: rgb(12, 153, 12);
+      font-size: 1.5em;
+      font-family: 'Ribeye', serif;
+      color: rgb(237, 224, 207);
+      position: sticky;
+      bottom: 0;
+    }
 
 
 
@@ -69,11 +96,12 @@ footer {
       border: 3px solid gray ;
     font-size: 2em;}
 
-.descripciontxt { width: 70%;
-     
-     background-color: rgb(46, 173, 46);
-      border: 1px solid gray ;
-    font-size: 1em;}
+.descripciontxt {   min-width: 300px;
+        max-width: 500px;
+        padding-top: 10%;
+        background-color: rgb(46, 173, 46);
+        border: 1px solid gray ;
+        font-size: 1em;}
 
 .imglogo2 {padding: 2px ;
        border: 1px solid black;}
